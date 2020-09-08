@@ -15,10 +15,10 @@
   "4a-hidden" : {"points":2, "question_id":"4a", "is_written":false, "is_extra_credit":false},
 
   "4b" : {"points":3, "question_id":"4b", "is_written":true, "is_extra_credit":false},
-  "4b-helper" : {"points":0, "question_id":"4b", "is_written":false, "is_extra_credit":false},
+  "4b-helper" : {"points":0, "question_id":"4b", "is_written":true, "is_extra_credit":false},
 
   "4c-basic" : {"points":4, "question_id":"4c", "is_written":false, "is_extra_credit":false},
 
   "4d" : {"points":4, "question_id":"4d", "is_written":true, "is_extra_credit":false},
-  "4d-helper" : {"points":0, "question_id":"4d", "is_written":false, "is_extra_credit":false}
+  "4d-helper" : {"points":0, "question_id":"4d", "is_written":true, "is_extra_credit":false}
 }
