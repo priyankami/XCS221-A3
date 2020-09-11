@@ -5,3 +5,9 @@ iterations -- but it would be nice to be more efficient for MDPs with this
 acyclic property. Briefly explain an algorithm that will allow us to compute
 $V_\text{opt}$ for each node with only a single pass over all the $(s, a, s')$
 triples.
+
+
+🐍
+import re
+with open('submission.tex') as f: print((re.search(r'% 📝_2b(.*?)% 📝_2b', f.read(), re.DOTALL)).group(1))
+🐍

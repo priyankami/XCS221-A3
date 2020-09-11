@@ -31,3 +31,9 @@ value iteration responds to a change in the rules of the MDP.
   your expected reward under the new Q-learning policy?  Provide some
   explanation for how the rewards compare, and why they are different.
 \end{itemize}
+
+
+🐍
+import re
+with open('submission.tex') as f: print((re.search(r'% 📝_4d(.*?)% 📝_4d', f.read(), re.DOTALL)).group(1))
+🐍

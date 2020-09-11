@@ -14,3 +14,9 @@ optimal value function for the modified MDP. Is it always the case that $V_1
 (s_\text{start})\geq V_2(s_\text{start})$?  If so, prove it in |blackjack.pdf|
 and put |return None| for each of the code blocks. Otherwise, construct a
 counterexample by filling out |CounterexampleMDP| in |submission.py|.
+
+
+🐍
+import re
+with open('submission.tex') as f: print((re.search(r'% 📝_2a(.*?)% 📝_2a', f.read(), re.DOTALL)).group(1))
+🐍
